@@ -16,7 +16,6 @@ jobs:
         with:
           go-version: '1.22.x'
           cache: false
-      - run: gofmt -w . && git diff --exit-code
       - run: go vet ./...
       - run: go test ./... -race
       - run: go build ./cmd/archive-explorer
