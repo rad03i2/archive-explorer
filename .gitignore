@@ -1,0 +1,11 @@
+# Go build outputs
+/archive-explorer
+/archive-explorer.exe
+*.test
+*.out
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
